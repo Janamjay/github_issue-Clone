@@ -1,6 +1,6 @@
 .main_side {
   overflow-y: scroll;
-  width: 25%;
+  /* width: 25%; */
   height: 66vh;
   padding: 10px 0;
   border-right: 1px solid white;
