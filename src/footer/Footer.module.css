@@ -1,0 +1,87 @@
+.main_content {
+  display: flex;
+  width: 100%;
+  padding: 3rem 0;
+}
+.left {
+  width: 33.3%;
+}
+.left > p {
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+}
+.left > button {
+  padding: 9px 15px;
+  outline: 1px solid #409eff;
+  border: 1px solid #409eff;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.left > button:hover {
+  background-color: rgb(40, 40, 40);
+}
+
+.left > a {
+  display: block;
+  margin-top: 1rem;
+  color: #409eff;
+}
+
+.middle {
+  width: 33.3%;
+}
+
+.middle > p {
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+}
+.middle > button {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 10px 15px;
+  outline: 1px solid #409eff;
+  border: 1px solid #409eff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.middle > button:hover {
+  background-color: rgb(40, 40, 40);
+}
+
+.middle > a {
+  color: #409eff;
+}
+.rightt {
+  width: 33.3%;
+  margin-left: 5rem;
+  text-align: left;
+}
+.rightt > p {
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+}
+.rightt > a {
+  display: block;
+  margin-top: 1rem;
+  color: #409eff;
+  cursor: pointer;
+}
+.legal{
+    margin-bottom: 5rem;
+}
+.legal > h4 {
+  margin: 1rem 0;
+}
+.copyright {
+  display: flex;
+}
+.copyright > p {
+  padding-right: 1rem;
+}
+.copyright > a{
+    padding-right: 1rem;
+    color: #409eff;
+    cursor: pointer;
+}

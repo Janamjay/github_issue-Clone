@@ -4,54 +4,54 @@
   padding: 1rem 0;
   padding-right: 2rem;
 }
-.main > h1{
-    padding: 1rem 0 2rem 0;
+.main > h1 {
+  padding: 1rem 0 2rem 0;
 }
-.issues_main{
-    padding: 1rem 0;
+.issues_main {
+  padding: 1rem 0;
 }
-.issues{
-    list-style: none;
+.issues {
+  list-style: none;
 }
-.issues>h3{
-    padding: 1rem  0;
-    font-weight: 600;
-    color: #409eff;
+.issues > h3 {
+  padding: 1rem 0;
+  font-weight: 600;
+  color: #409eff;
 }
-.issues>p{
-    line-height: 1.5;
-    font-weight: 400;
+.issues > p {
+  line-height: 1.5;
+  font-weight: 400;
 }
-.btn{
-    display: flex;
-    justify-content: center;
-    margin: 3rem 0;
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
 }
-.prev{
-    color: #409eff;
-    background-color: black;
-    padding: 12px 15px;
-    outline: none;
-    border: none;
-    cursor: pointer;
+.prev {
+  color: #409eff;
+  background-color: black;
+  padding: 12px 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
-.next{
-    color: #409eff;
-    background-color: black;
-    padding: 12px 15px;
-    outline: none;
-    border: none;
-    margin-left: 1rem;
-    cursor: pointer;
+.next {
+  color: #409eff;
+  background-color: black;
+  padding: 12px 15px;
+  outline: none;
+  border: none;
+  margin-left: 1rem;
+  cursor: pointer;
 }
 
-.prev:hover{
-    color: #417db8;
-    border-radius: 12px;
-    background-color: rgb(40, 40, 40);
+.prev:hover {
+  color: #417db8;
+  border-radius: 12px;
+  background-color: rgb(40, 40, 40);
 }
-.next:hover{
-    color: #417db8;
-    border-radius: 12px;
-    background-color: rgb(40, 40, 40);
+.next:hover {
+  color: #417db8;
+  border-radius: 12px;
+  background-color: rgb(40, 40, 40);
 }
