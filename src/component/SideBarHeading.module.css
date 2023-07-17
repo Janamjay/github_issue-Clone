@@ -1,0 +1,20 @@
+.main {
+  box-sizing: border-box;
+  width: 25%;
+  height: 100vh;
+  border-right: 1px solid white;
+  position: fixed;
+}
+
+.heading {
+  display: flex;
+  padding: 1rem 2rem;
+}
+.pro {
+  padding-left: 1rem;
+}
+.search > h3 {
+  padding: 1.1rem 1rem 2rem 2rem;
+  font-weight: 600;
+  border-bottom: 1px solid white;
+}
