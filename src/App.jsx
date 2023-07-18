@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "./component/navbar";
-import SidebarHeading from "./component/SidebarHeading";
 import "./App.css";
-import Sidebar from "./component/Sidebar";
-import RightSide from "./component/RightSide";
+import Navbar from "./component/navbar/Navbar";
+import SidebarHeading from "./component/sidebar/SidebarHeading";
+import Sidebar from "./component/sidebar/Sidebar";
+import RightSide from "./component/RightSide/RightSide";
 
 function App() {
   return (
@@ -11,11 +11,11 @@ function App() {
       <Navbar />
       <div className="main_container">
         <div className="sidebar">
-          <SidebarHeading />
-          <Sidebar />
+          <SidebarHeading/>
+          <Sidebar/>
         </div>
         <div className="right_side">
-          <RightSide />
+          <RightSide/>
         </div>
       </div>
     </>

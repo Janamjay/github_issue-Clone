@@ -1,5 +1,5 @@
 import React from 'react'
-import {data} from '../util/Data'
+import {data} from '../../util/Data'
 import side from './Sidebar.module.css'
 
 const Sidebar = () => {

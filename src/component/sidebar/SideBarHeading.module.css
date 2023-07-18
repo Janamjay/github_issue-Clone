@@ -1,8 +1,7 @@
 .main {
   box-sizing: border-box;
-  /* width: 25%; */
   border-right: 1px solid white;
-  height: 22vh;
+  height: 23vh;
 }
 
 .heading {

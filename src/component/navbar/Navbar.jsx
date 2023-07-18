@@ -1,7 +1,7 @@
 import React from "react";
 import nav from "./navbar.module.css";
-import logo from "../images/logo.png";
-import browser from "../images/browser.png";
+import logo from "../../images/logo.png";
+import browser from "../../images/browser.png";
 const Navbar = () => {
   return (
     <nav className={nav.main}>
@@ -12,7 +12,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className={nav.right}>
-        <input type="text" />
+        <input type="text"  />
         <img className={nav.logo}  src={browser} alt="browser" />
       </div>
     </nav>

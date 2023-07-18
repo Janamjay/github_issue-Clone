@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import right from "./RightSide.module.css";
-import Footer from "../footer/Footer";
+import Footer from "../../footer/Footer";
 
 const RightSide = () => {
   const [issues, setIssues] = useState([]);
