@@ -53,6 +53,10 @@
 .middle > a {
   color: #409eff;
 }
+.middle > p:nth-child(even){
+  font-weight: 300;
+  font-size: 14px;
+}
 .rightt {
   width: 33.3%;
   margin-left: 5rem;
@@ -68,8 +72,8 @@
   color: #409eff;
   cursor: pointer;
 }
-.legal{
-    margin-bottom: 5rem;
+.legal {
+  margin-bottom: 5rem;
 }
 .legal > h4 {
   margin: 1rem 0;
@@ -80,8 +84,40 @@
 .copyright > p {
   padding-right: 1rem;
 }
-.copyright > a{
-    padding-right: 1rem;
-    color: #409eff;
-    cursor: pointer;
+.copyright > a {
+  padding-right: 1rem;
+  color: #409eff;
+  cursor: pointer;
 }
+
+
+
+
+@media screen and (max-width: 480px) {
+  /* Mobile Styles */
+  .main_content {
+    display: block;
+  }
+  .left{
+    width: 100%;
+  }
+  .middle{
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .middle > p:nth-child(even){
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .rightt {
+    margin-left: 0 ;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .copyright{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+

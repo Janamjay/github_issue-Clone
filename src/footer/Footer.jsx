@@ -1,6 +1,6 @@
 import React from "react";
 import { BsHandThumbsUp, BsHandThumbsDown } from "react-icons/Bs";
-import foot from './Footer.module.css'
+import foot from "./Footer.module.css";
 
 const Footer = () => {
   return (

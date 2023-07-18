@@ -14,13 +14,14 @@
   list-style: none;
 }
 .issues > h3 {
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   font-weight: 600;
   color: #409eff;
 }
 .issues > p {
   line-height: 1.5;
   font-weight: 400;
+  padding-bottom: 1rem;
 }
 .btn {
   display: flex;
@@ -54,4 +55,15 @@
   color: #417db8;
   border-radius: 12px;
   background-color: rgb(40, 40, 40);
+}
+
+@media screen and (max-width: 480px) {
+  /* Mobile Styles */
+
+  .issues > p {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 1.1;
+    color: rgb(203, 203, 203);
+  }
 }
